@@ -44,11 +44,11 @@ dia_chi varchar (100)
 create table nhacc_sdt(
 id_ncc int ,
 foreign key (id_ncc) references nha_cc(id),
-so_dt varchar (11)
+so_dt varchar (11) primary key
 );
 
 create table don_dat_hang(
-so_dh int auto_increment primary key not null,
+so_dh int auto_increment primary key ,
 ngay_dh date,
 ma_ncc int,
 foreign key (ma_ncc) references nha_cc(id)
@@ -57,6 +57,7 @@ foreign key (ma_ncc) references nha_cc(id)
 create table don_hang_vat_tu(
 id_don_hang int,
 id_vat_tu int,
+primary key (id_don_hang, id_vat_tu),
 foreign key (id_don_hang) references don_dat_hang(so_dh),
 foreign key (id_vat_tu) references vat_tu(id)
 
