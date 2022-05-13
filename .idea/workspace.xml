@@ -20,6 +20,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../C0222G1-NguyenBaoLong-Module2" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,7 +33,17 @@
       <option name="presentableId" value="Default" />
       <updated>1652318416675</updated>
       <workItem from="1652318446124" duration="12000" />
+      <workItem from="1652330313929" duration="74000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1652330407448">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1652330407448" />
   </component>
 </project>
