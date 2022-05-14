@@ -2,7 +2,7 @@ drop database if exists student_management;
 create database if not exists student_management;
 use student_management;
 create table class(
-id int primary key auto_increment,
+id int primary key not null auto_increment,
 `name` varchar (60) not null,
 start_date date not null,
 `status` bit
@@ -14,7 +14,7 @@ create table student(
  address varchar(50),
  phone varchar(20),
  `status` bit,
- class_id int,
+ class_id int not null,
  foreign key (class_id) references class (id)
  );
  

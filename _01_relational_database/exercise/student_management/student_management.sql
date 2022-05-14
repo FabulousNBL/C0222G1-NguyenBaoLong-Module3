@@ -17,5 +17,5 @@ insert into teacher values(2,"Linh",18,"Da Nang");
 select * from class;
 select * from teacher;
 update class set `name` = "11A" where id = 1;
-update teacher set `name`= "Truong";-- 
-drop database student_management;-- 
+update teacher set `name`= "Truong";
+-- drop database student_management;
