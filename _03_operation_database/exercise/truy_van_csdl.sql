@@ -12,7 +12,7 @@ select * from subjects;
 update student set student.class_id=2 where student.`name`='Hung' and student.id>0;
 
 select * from mark;
-select s.`name`,sub.`name`,m.mark from student s 
-inner join subjects sub on sub.id= s.id 
-inner join mark m on sub.id = m.sub_id 
-order by m.mark desc, sub.`name` asc;
+select s.`name`,sub.`name`,m.mark from mark m 
+inner join student s on m.student_id= s.id 
+inner join subjects sub on sub.id = m.sub_id 
+order by m.mark desc, s.`name` asc;

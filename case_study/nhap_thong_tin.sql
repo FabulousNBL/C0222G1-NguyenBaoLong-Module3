@@ -2,12 +2,19 @@ use case_study;
 
  insert into loai_dich_vu (ten_loai_dich_vu) values ("Giuong Don, TV, Dieu Hoa"),("TV, Tu Lanh, Dieu Hoa, Giuong Doi"),("2 Giuong Don, Giat La, TV");
  
- insert into kieu_thue ( ten_kieu_thue) values ("Single"),("Double"),("Twin");
+ insert into kieu_thue ( ten_kieu_thue) values ("Theo giờ"),("Theo ngày"),("Theo tháng"),("Theo năm");
 
  insert into dich_vu (ten_dich_vu, dien_tich, chi_phi_thue, so_nguoi_toi_da, ma_kieu_thue, ma_loai_dich_vu,
  tieu_chuan_phong, mo_ta_tien_nghi_khac, dien_tich_ho_boi, so_tang) values 
- ("Massage", 50, 30000.0, 2, 1, 2, 2 , 2 , 20, 3),
- ("Don Phong", 50, 20000.0, 1, 2, 1, 1, 1, 20, 2);
+ ("Villa", 50, 30000.0, 2, 1, 2, 2 , 2 , 20, 3),
+ ("Villa1", 50, 30000.0, 2, 1, 2, 2 , 2 , 20, 3),
+ ("Villa2", 50, 30000.0, 2, 1, 2, 2 , 2 , 20, 3),
+ ("House", 50, 20000.0, 1, 2, 1, 1, 1, 20, 2),
+ ("House1", 50, 20000.0, 1, 2, 1, 1, 1, 20, 2),
+ ("House2", 50, 20000.0, 1, 2, 1, 1, 1, 20, 2),
+ ("Room", 50, 30000.0, 1, 2, 1, 1, 1, 20, 1),
+ ("Room1", 50, 30000.0, 1, 2, 1, 1, 1, 20, 1),
+ ("Room2", 50, 30000.0, 1, 2, 1, 1, 1, 20, 1);
  
  insert into bo_phan (`name`) values ("Hanh Chinh"),("Phuc Vu"),("Quan Ly"),("Sale");
  
@@ -16,8 +23,8 @@ use case_study;
  insert into trinh_do (`name`) values ("Dai Hoc"),("Cao Dang"), ("Trung Cap"),("Sau Dai Hoc");
  
  insert into nhan_vien (ho_ten, ngay_sinh, so_cmnd, luong, so_dien_thoai, email, dia_chi, ma_vi_tri, ma_trinh_do, ma_bo_phan) values
- ("Bao Long", "1997-12-24", "201782581", 8000, "0373959515", "nguyenblong2412@gmail.com", "Da Nang", 1,3,1),
- ("Xuan Huong", "1996-04-28", "201792592",8500, "0932565342", "xuanhuongabc@gmail.com", "Vinh Phuc", 2,2,2),
+ ("Nguyen Bao Long", "1997-12-24", "201782581", 8000, "0373959515", "nguyenblong2412@gmail.com", "Da Nang", 1,3,1),
+ ("Nguyen Thi Xuan Huong", "1996-04-28", "201792592",8500, "0932565342", "xuanhuongabc@gmail.com", "Vinh Phuc", 2,2,2),
  ("Thu Trang", "2000-07-05", "2220165325", 7000, "0465987321", "thutrang@gmail.com", "Hue", 3,1,3),
  ("Kien Tran", "2000-07-05", "2221658745", 7000, "0545787989", "kientrang@gmail.com", "Hue", 1,1,4);
  
@@ -37,12 +44,12 @@ use case_study;
  
  insert into hop_dong (ngay_lam_hop_dong, ngay_ket_thuc, tien_dat_coc,ma_nhan_vien, ma_khach_hang, ma_dich_vu) values 
   (current_time(), "2022-05-19 15:00:00", 50000, 4, 1,1),
- ("2022-05-10 10:15:56", "2022-05-15 16:00:00", 40000,1,2,2),
- ("2022-05-10 10:15:56", "2022-05-15 16:00:00", 40000,1,1,2),
- ("2022-05-10 10:15:56", "2022-05-15 16:00:00", 40000,1,3,2),
- ("2022-05-10 10:15:56", "2022-05-15 16:00:00", 40000,1,3,2),
- ("2022-05-10 10:15:56", "2022-05-15 16:00:00", 40000,1,2,2),
- ("2022-05-10 10:15:56", "2022-05-15 16:00:00", 40000,1,2,2);
+ ("2022-03-09 10:15:56", "2022-03-15 16:00:00", 40000,1,2,2),
+ ("2022-02-10 10:15:56", "2022-02-15 16:00:00", 40000,1,1,3),
+ ("2022-01-10 10:15:56", "2022-01-15 16:00:00", 40000,1,3,4),
+ ("2022-05-10 10:15:56", "2022-05-15 16:00:00", 40000,1,3,5),
+ ("2022-07-10 10:15:56", "2022-07-15 16:00:00", 40000,1,2,6),
+ ("2022-06-10 10:15:56", "2022-06-15 16:00:00", 40000,1,2,2);
   
  insert into hop_dong_chi_tiet ( ma_hop_dong, ma_dich_vu_di_kem, so_luong) values 
   (1,1,2),(2,2,1);
