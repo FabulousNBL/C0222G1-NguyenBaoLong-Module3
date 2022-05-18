@@ -3,17 +3,17 @@ create database if not exists case_study;
 use case_study;
 create table vi_tri(
 id int primary key auto_increment,
-`name` varchar (45)
+ten_vi_tri varchar (45)
 );
 
 create table trinh_do(
 id int primary key auto_increment,
-`name` varchar(45)
+ten_trinh_do varchar(45)
 );
 
 create table bo_phan(
 id int primary key auto_increment,
-`name` varchar(45)
+ten_bo_phan varchar(45)
 );
 
 create table nhan_vien(
