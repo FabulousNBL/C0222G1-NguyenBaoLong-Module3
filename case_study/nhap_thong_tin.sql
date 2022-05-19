@@ -1,17 +1,17 @@
 use case_study;
-INSERT INTO vi_tri (id,ten_vi_tri)
+INSERT INTO vi_tri (ma_vi_tri,ten_vi_tri)
 VALUES (1,'lễ tân'),(2,'phục vụ'),(3,'chuyên viên'),(4,'giám sát'),(5,'quản lý'),(6,'giám đốc');
-INSERT INTO trinh_do (id,ten_trinh_do)
+INSERT INTO trinh_do (ma_trinh_do,ten_trinh_do)
 VALUES (1,'Trung cấp'),(2,'Cao đẳng'),(3,'Đại học'),(4,'Cao học');
-INSERT INTO bo_phan (id,ten_bo_phan)
+INSERT INTO bo_phan (ma_bo_phan,ten_bo_phan)
 VALUES (1,'Sale – Marketing'),(2,'Hành Chính'),(3,'Phục vụ'),(4,'Quản lý');
-INSERT INTO loai_khach (id,ten_loai_khach)
+INSERT INTO loai_khach (ma_loai_khach,ten_loai_khach)
 VALUES(1,'Diamond'),(2,'Platinium'),(3,'Gold'),(4,'Silver'),(5,'Member');
-INSERT INTO kieu_thue (id,ten_kieu_thue)
+INSERT INTO kieu_thue (ma_kieu_thue,ten_kieu_thue)
 VALUES(1,'năm'),(2,'tháng'),(3,'ngày'),(4,'giờ');
-INSERT INTO loai_dich_vu (id,ten_loai_dich_vu)
+INSERT INTO loai_dich_vu (ma_loai_dich_vu,ten_loai_dich_vu)
 VALUES(1,'Villa'),(2,'House'),(3,'Room');
-insert into khach_hang(id,ho_ten,ngay_sinh,gioi_tinh,so_cmnd,so_dien_thoai,email,dia_chi,ma_loai_khach_hang)
+insert into khach_hang(ma_khach_hang,ho_ten,ngay_sinh,gioi_tinh,so_cmnd,so_dien_thoai,email,dia_chi,ma_loai_khach_hang)
 values
 (1,"Nguyễn Thị Hào","1970-11-07",0,"643431213","0945423362","thihao07@gmail.com","Đà Nẵng",5),
 (2,"Phạm Xuân Diệu","1992-08-08",1,"016561645","016589161516","abc@gmail.com","Quảng Trị",3),
@@ -23,7 +23,7 @@ values
 (8,"Nguyễn Thị Hào","1999-04-08",0,"965656433","0763212345","haohao99@gmail.com","Kon Tum",3),
 (9,"Trần Đại Danh","1994-07-01",1,"432341235","0643343433","danhhai99@gmail.com","Quảng Ngãi",1),
 (10,"Nguyễn Tâm Đắc","1989-07-01",1,"344343432","0987654321","dactam@gmail.com","Đà Nẵng",2);
-insert into dich_vu(id,ten_dich_vu,dien_tich,chi_phi_thue,so_nguoi_toi_da,tieu_chuan_phong,mo_ta_tien_nghi_khac,dien_tich_ho_boi,so_tang,ma_kieu_thue,ma_loai_dich_vu)
+insert into dich_vu(ma_dich_vu,ten_dich_vu,dien_tich,chi_phi_thue,so_nguoi_toi_da,tieu_chuan_phong,mo_ta_tien_nghi_khac,dien_tich_ho_boi,so_tang,ma_kieu_thue,ma_loai_dich_vu)
 values
 (1,'Villa Beach Front' ,25000 ,10000000 , 10,'vip','Có hồ bơi' ,500 ,4 ,3 , 1 ),
 (2,'House Princess 01' ,14000 ,5000000 , 7,'vip','Có thêm bếp nướng' ,null ,3 ,2 , 2 ),
@@ -31,7 +31,7 @@ values
 (4,'Villa No Beach Front' ,22000 ,9000000 , 8,'normal','Có hồ bơi' ,300 ,3 ,3 , 1 ),
 (5,'House Princess 02' ,10000 ,4000000 , 5,'normal','Có thêm bếp nướng' ,null ,2 ,3 , 2 ),
 (6,'Room Twin 02' ,3000 ,900000 , 2,'normal','Có tivi' ,null ,null ,4 , 3 );
-insert into nhan_vien(id,ho_ten,ngay_sinh,so_cmnd,luong,so_dien_thoai,email,dia_chi,ma_vi_tri,ma_trinh_do,ma_bo_phan)
+insert into nhan_vien(ma_nhan_vien,ho_ten,ngay_sinh,so_cmnd,luong,so_dien_thoai,email,dia_chi,ma_vi_tri,ma_trinh_do,ma_bo_phan)
 values
 (1,'Nguyễn Văn An','1970-11-07',456231786,10000000,0901234121,'annguyen@gmail.com','295 Nguyễn Tất Thành, Đà Nẵng',1,3,1),
 (2,'Lê Văn Bình','1997-04-09',654231234,7000000,0934212314,'binhlv@gmail.com','22 Yên Bái, Đà Nẵng',1,2,2),
@@ -43,7 +43,7 @@ values
 (8,'Nguyễn Hà Đông','1989-09-03',234414123,9000000,0642123111,'donghanguyen@gmail.com','111 Hùng Vương, Hà Nội',2,4,4),
 (9,'Tòng Hoang','1982-09-03',256781231,6000000,0245144444,'hoangtong@gmail.com','213 Hàm Nghi, Đà Nẵng',2,4,4),
 (10,'Nguyễn Công Đạo','1994-01-08',755434343,8000000,0988767111,'nguyencongdao12@gmail.com','6 Hoà Khánh, Đồng Nai',2,3,2);
-insert into hop_dong(id,ngay_lam_hop_dong,ngay_ket_thuc,tien_dat_coc,ma_nhan_vien,ma_khach_hang,ma_dich_vu)
+insert into hop_dong(ma_hop_dong,ngay_lam_hop_dong,ngay_ket_thuc,tien_dat_coc,ma_nhan_vien,ma_khach_hang,ma_dich_vu)
 values
 (1,'2020-12-08','2020-12-08',0,3,1,3),
 (2,'2020-07-14','2020-07-21',200000,7,3,1),
@@ -57,7 +57,7 @@ values
 (10,'2021-04-12','2021-04-14',0,10,3,5),
 (11,'2021-04-25','2021-04-25',0,2,2,1),
 (12,'2021-05-25','2021-05-27',0,7,10,1);
-insert into dich_vu_di_kem(id,ten_dich_vu_di_kem,gia,don_vi,trang_thai)
+insert into dich_vu_di_kem(ma_dich_vu_di_kem,ten_dich_vu_di_kem,gia,don_vi,trang_thai)
 values
 (1,'Karaoke','10000','giờ','tiện nghi, hiện tại'),
 (2,'Thuê xe máy','10000','chiếc','hỏng 1 xe'),
@@ -65,6 +65,6 @@ values
 (4,'Buffet buổi sáng','15000','suất','đầy đủ đồ ăn, tráng miệng'),
 (5,'Buffet buổi trưa','90000','suất','đầy đủ đồ ăn, tráng miệng'),
 (6,'Buffet buổi tối','16000','suất','đầy đủ đồ ăn, tráng miệng');
-insert into hop_dong_chi_tiet(id,so_luong,ma_hop_dong,ma_dich_vu_di_kem)
+insert into hop_dong_chi_tiet(ma_hop_dong_chi_tiet,so_luong,ma_hop_dong,ma_dich_vu_di_kem)
 values (1,5,2,4),(2,8,2,5),(3,15,2,6),(4,1,3,1),
 (5,11,3,2),(6,1,1,3),(7,2,1,2),(8,2,12,2);
