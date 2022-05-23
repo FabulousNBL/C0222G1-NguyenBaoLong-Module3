@@ -6,7 +6,7 @@ FROM nhan_vien
 WHERE ((select substring_index(ho_ten, ' ', -1) LIKE 't%') or 
  (select substring_index(ho_ten, ' ', -1) LIKE 'h%') OR
  (select substring_index(ho_ten, ' ', -1) LIKE 'k%')) AND 
- (length(ho_ten) <= 30);
+ (char_length(ho_ten) <= 15);
  
 -- 3.	Hiển thị thông tin của tất cả khách hàng có độ tuổi từ 18 đến 50 tuổi và có địa chỉ ở “Đà Nẵng” hoặc “Quảng Trị”.
 select * from khach_hang where ((year(curdate())- year(ngay_sinh)) between 18 and 50) and 
@@ -195,6 +195,35 @@ select nv.ma_nhan_vien, nv.       ho_ten, nv.email, nv.so_dien_thoai, nv.ngay_si
 union all
 select kh.ma_khach_hang, kh.ho_ten, kh.email,kh.so_dien_thoai, kh.ngay_sinh, kh.dia_chi from khach_hang kh;
 
--- 21.	Tạo khung nhìn có tên là v_nhan_vien để lấy được thông tin của tất cả các nhân viên có địa chỉ là “Hải Châu” và 
+-- 21.	Tạo khung nhìn có tên là v_nhan_vien để lấy được thông tin của tất cả các nhân viên có địa chỉ là “Đà Nẵng” và 
 -- đã từng lập hợp đồng cho một hoặc nhiều khách hàng bất kì với ngày lập hợp đồng là “12/12/2019”.
+
+create view view_nhan_vien as
+select nv.* from nhan_vien nv
+join hop_dong hd on nv.ma_nhan_vien = hd.ma_nhan_vien
+where nv.dia_chi  like "%Đà Nẵng" and
+hd.ngay_lam_hop_dong like '2021-04-25%';
+
+select * from nhan_vien;
+
+-- 22.	Thông qua khung nhìn v_nhan_vien thực hiện cập nhật địa chỉ thành “Liên Chiểu” đối với tất cả các nhân viên được nhìn thấy 
+-- bởi khung nhìn này.
+
+update view_nhan_vien set dia_chi = replace(dia_chi, "Yên Bái", "Hải Châu");
+
+-- 23.	Tạo Stored Procedure sp_xoa_khach_hang dùng để xóa thông tin của một khách hàng nào đó với ma_khach_hang được truyền vào 
+-- như là 1 tham số của sp_xoa_khach_hang.
+
+delimiter //
+create procedure sp_xoa_khach_hang(ma_khach_hang int)
+begin
+delete from khach_hang kh where kh.ma_khach_hang = ma_khach_hang;
+end //
+delimiter ;
+
+call sp_xoa_khach_hang(2);
+
+-- 24.	Tạo Stored Procedure sp_them_moi_hop_dong dùng để thêm mới vào bảng hop_dong với yêu cầu sp_them_moi_hop_dong 
+-- phải thực hiện kiểm tra tính hợp lệ của dữ liệu bổ sung, với nguyên tắc không được trùng khóa chính và 
+-- đảm bảo toàn vẹn tham chiếu đến các bảng liên quan.
 

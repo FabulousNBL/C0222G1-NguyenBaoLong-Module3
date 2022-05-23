@@ -1,11 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a2afb6d-4fde-416b-92d4-d9b541ffd41e" name="Default Changelist" comment="" />
+    <list default="true" id="5a2afb6d-4fde-416b-92d4-d9b541ffd41e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_06_css/exercise/insert_css_into_html/external_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_css/exercise/insert_css_into_html/external_style_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_css/exercise/insert_css_into_html/inline_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_css/exercise/insert_css_into_html/internal_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_css/exercise/manga/main_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_css/exercise/manga/manga.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_css/exercise/manga/milf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_css/exercise/manga/mind_control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_css/exercise/manga/ntr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_css/exercise/word_format/format_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_css/exercise/word_format/word_format.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_css/practice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/truy_van.sql" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/truy_van.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -16,11 +57,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../C0222G1-NguyenBaoLong-Module2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0222G1-NguyenBaoLong-Module3\_06_css\exercise\insert_css_into_html" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,11 +89,28 @@
       <workItem from="1652318446124" duration="12000" />
       <workItem from="1652330313929" duration="74000" />
       <workItem from="1652867474693" duration="132000" />
+      <workItem from="1653041431243" duration="339000" />
+      <workItem from="1653122225674" duration="9800000" />
+      <workItem from="1653132519660" duration="103000" />
+      <workItem from="1653268143513" duration="2237000" />
+      <workItem from="1653278351668" duration="1564000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1652330407448">

@@ -1,0 +1,17 @@
+p{
+    font-family: "Times New Roman";
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.span1{
+    color: blue;
+}
+
+.span2{
+    font-weight: bold;
+    color: black;
+}
+.span3{
+    color: cornflowerblue;
+}

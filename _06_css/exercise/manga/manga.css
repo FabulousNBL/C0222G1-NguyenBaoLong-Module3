@@ -1,0 +1,30 @@
+h1 {
+    color: blue;
+    text-align: center;
+    background-color: yellow;
+}
+
+#img {
+    text-align: center;
+    background-color: green;
+}
+
+
+h3 {
+    text-indent: 50px;
+    color: orange;
+}
+
+h5 {
+    text-indent: 90px;
+    color: red;
+}
+div {
+    background-color: lightblue;
+}
+
+td{
+    padding-left: 50px;
+    text-align: center;
+}
+
