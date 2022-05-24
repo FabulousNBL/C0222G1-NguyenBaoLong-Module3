@@ -1,7 +1,10 @@
 h1 {
+    position: sticky;
     color: blue;
     text-align: center;
     background-color: yellow;
+    width: 100%;
+    top:0;
 }
 
 #img {
@@ -22,9 +25,20 @@ h5 {
 div {
     background-color: lightblue;
 }
+div:hover {
+    font-size: 30px;
+}
 
 td{
     padding-left: 50px;
     text-align: center;
 }
 
+.img1:hover{
+    padding-top: 50px;
+    transition: .3s;
+    height: 10px;
+}
+a:hover{
+    font-size: 30px;
+}

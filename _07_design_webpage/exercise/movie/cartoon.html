@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web phim hoạt hình</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 10px;
+        }
+        .col-1 {width: 8.33%}
+        .col-2 {width: 16.66%}
+        .col-3 {width: 25%}
+        .col-4 {width: 33.32%}
+        .col-5 {width: 41.65%}
+        .col-6 {width: 50%}
+        .col-7 {width: 58.31%}
+        .col-8 {width: 66.64%}
+        .col-9 {width: 75%}
+        .col-10 {width: 83.33%}
+        .col-11 {width: 91.63%}
+        .col-12 {width: 100%}
+        .row::after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+        .header {
+            font-size: 40px;
+        }
+        .color-lightgrey {
+            background-color: lightgrey;
+        }
+        .title {
+            color: white;
+            background-color: red;
+        }
+        .center {
+            text-align: center;
+        }
+        @media only screen and (max-width: 768px){
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+        .footer {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="row color-lightgrey">
+    <div class="col-12 header">
+        Phim <span class="title">hoạt hình</span>
+    </div>
+</div>
+<div class="row center color-lightgrey", style="margin-top: 5px">
+    Phim hoạt hình | Phim hoạt hình yêu thích | Nhân vật hoạt hình |
+    Góp ý
+</div>
+<div class="row">
+    <div class="col-4">
+        <div class="row">
+            <div class="col-12">
+                <video width="100%" controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h4>Clip test</h4>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <video width="100%" controls>
+                    <source src="video.mp4", type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h4>Clip test</h4>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <video width="100%" controls>
+                    <source src="video.mp4", type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h4>Clip test</h4>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <video width="100%" controls>
+                    <source src="video.mp4", type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h4>Clip test</h4>
+        </div>
+    </div>
+    <div class="col-8">
+        <div class="row">
+            <div class="col-12">
+                <video width="100%" controls>
+                    <source src="video.mp4", type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h4>Title video</h4>
+            </div>
+            <p></p>
+        </div>
+    </div>
+</div>
+<div class="row footer center">
+    © 2021 - Thiết kế web hoạt hình test
+</div>
+</body>
+</html>

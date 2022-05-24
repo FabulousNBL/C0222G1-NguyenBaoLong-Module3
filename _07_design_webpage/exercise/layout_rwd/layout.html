@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+
+        .col-md-1 {
+            width: 8.33333%;
+        }
+
+        .col-md-2 {
+            width: 16.66667%;
+        }
+
+        .col-md-3 {
+            width: 25%;
+        }
+
+        .col-md-4 {
+            width: 33.33333%;
+        }
+
+        .col-md-5 {
+            width: 41.66667%;
+        }
+
+        .col-md-6 {
+            width: 50%;
+        }
+
+        .col-md-7 {
+            width: 58.33333%;
+        }
+
+        .col-md-8 {
+            width: 66.66667%;
+        }
+
+        .col-md-9 {
+            width: 75%;
+        }
+
+        .col-md-10 {
+            width: 83.33333%;
+        }
+
+        .col-md-11 {
+            width: 91.66667%;
+        }
+
+        .col-md-12 {
+            width: 100%;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .header, .footer {
+            background: orange;
+            height: 50px;
+        }
+
+        .left {
+            background: #0f6674;
+            height: 600px;
+        }
+
+        .right {
+            background: #0f6674;
+            height: 600px;
+        }
+
+        ul li {
+            display: inline-block;
+            margin-bottom: 16px;
+            padding-right: 30px;
+        }
+
+        img {
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+
+        body {
+            height: 100%;
+        }
+
+        .uchiha {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .footer {
+            width: 100%;
+            text-align: center;
+        }
+
+        span {
+            margin-top: 100px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="row header">
+    <div class="col-md-1">
+        <p style="text-align: left">Logo</p>
+    </div>
+    <div class="col-md-10">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="col-md-1">
+        <p style="text-align: right">Login</p>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-md-2 left">
+        <p class="uchiha"><a href="https://naruto.fandom.com/vi/wiki/Uchiha_Sasuke">Uchiha Sasuke</a></p>
+        <p class="uchiha"><a href="https://naruto.fandom.com/vi/wiki/Uchiha_Sasuke">Uchiha Itachi</a></p>
+        <p class="uchiha"><a href="https://naruto.fandom.com/vi/wiki/Uchiha_Sasuke">Uchiha Madara</a></p>
+        <p class="uchiha"><a href="https://naruto.fandom.com/vi/wiki/Uchiha_Sasuke">Uchiha Obito</a></p>
+
+    </div>
+
+    <div class="col-md-8">
+        <h1>Welcome</h1>
+        <p id="article" style="font-size: 30px">The Uchiha are descendants of Indra Ōtsutsuki, the elder son of Hagoromo Ōtsutsuki. Through Indra, the Uchiha
+            inherited Hagoromo's "eyes", granting them powerful spiritual energy and chakra. As part of the so-called
+            "Curse of Hatred" first displayed by Indra, Uchiha are subject to powerful emotions: these emotions
+            typically start as love for a friend or family member that then become overpowering hatred when the object
+            of their love is lost. This loss, whether actually experienced or merely threatened, awakens an Uchiha's
+            Sharingan. It is due to the Sharingan that the Uchiha have received much of their fame and notoriety.
+
+            The Uchiha have been fighting the Senju clan for centuries, a rivalry that traces back to the days of Indra
+            and his younger brother, Asura. When the Sage of Six Paths was dying, he selected Asura as his successor,
+            believing Asura's desire for peace through love was better than Indra's peace through power. Indra, driven
+            by his Curse of Hatred, fought Asura to claim what he believed was his birthright. The Uchiha and Senju,
+            descendants of Indra and Asura respectively, continued their battle through the centuries, though none still
+            remembered this reason for their conflict.[3]</p>
+    </div>
+
+    <div class="col-md-2 right">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIB_feaAB-ax7-5uBna7Co4sihiHLpxqBWSw&usqp=CAU">
+    </div>
+</div>
+<div class="footer">
+    <span>Uchiha Clan</span>
+</div>
+</body>
+</html>
