@@ -97,7 +97,7 @@
         .uchiha {
             margin-top: 50px;
             text-align: center;
-            font-size: 30px;
+            font-size: 2rem;
         }
 
         .footer {
@@ -108,18 +108,126 @@
         span {
             margin-top: 100px;
         }
-
+        #article{
+            font-size: 2rem;
+        }
         @media only screen and (max-width: 768px) {
-            [class*="col-"] {
+            [class*="col-md"] {
                 width: 100%;
             }
+            p{
+                font-size: 1rem;
+                color: purple;
+            }
+            span{
+                font-size: 1rem;
+                color: purple;
+            }
+        }
+        @media only screen and (max-width:376px ){
+            .col-xs-1 {width: 8.33333%;}
+            .col-xs-2 {width: 16.66667%;}
+            .col-xs-3 {width: 25%;}
+            .col-xs-4 {width: 33.33333%;}
+            .col-xs-5 {width: 41.66667%;}
+            .col-xs-6 {width: 50%;}
+            .col-xs-7 {width: 58.33333%;}
+            .col-xs-8 {width: 66.66667%;}
+            .col-xs-9 {width: 75%;}
+            .col-xs-10 {width: 83.33333%;}
+            .col-xs-11 {width: 91.66667%;}
+            .col-xs-12 {width: 100%;}
+            li{
+                text-align: center;
+                color: red;
+            }
+
+        }
+        @media only screen and (min-width:377px )and (max-width:740px ){
+            .col-sm-1 {width: 8.33333%;}
+            .col-sm-2 {width: 16.66667%;}
+            .col-sm-3 {width: 25%;}
+            .col-sm-4 {width: 33.33333%;}
+            .col-sm-5 {width: 41.66667%;}
+            .col-sm-6 {width: 50%;}
+            .col-sm-7 {width: 58.33333%;}
+            .col-sm-8 {width: 66.66667%;}
+            .col-sm-9 {width: 75%;}
+            .col-sm-10 {width: 83.33333%;}
+            .col-sm-11 {width: 91.66667%;}
+            .col-sm-12 {width: 100%;}
+            .header, .footer {
+                background: deeppink;
+                height: 50px;
+                display: block;
+                margin-top: 0;
+            }
+
+            .left {
+                background: #0f6674;
+                height: 600px;
+            }
+
+            .right {
+                background: #0f6674;
+                height: 600px;
+            }
+
+            ul li {
+                display: inline-block;
+                margin-top: 0;
+                padding-right: 10px;
+            }
+
+            img {
+                margin-left: 30px;
+                margin-top: 50px;
+            }
+
+            body {
+                height: 100%;
+            }
+
+            .uchiha {
+                margin-top: 50px;
+                text-align: center;
+            }
+
+            #article{
+                font-size: 1rem;
+            }
+
+            .footer {
+                width: 100%;
+                text-align: center;
+            }
+
+            span {
+                margin-top: 100px;
+            }
+        }
+
+
+        @media only screen and (min-width:1241px){
+            .col-l-1 {width: 8.33333%;}
+            .col-l-2 {width: 16.66667%;}
+            .col-l-3 {width: 25%;}
+            .col-l-4 {width: 33.33333%;}
+            .col-l-5 {width: 41.66667%;}
+            .col-l-6 {width: 50%;}
+            .col-l-7 {width: 58.33333%;}
+            .col-l-8 {width: 66.66667%;}
+            .col-l-9 {width: 75%;}
+            .col-l-10 {width: 83.33333%;}
+            .col-l-11 {width: 91.66667%;}
+            .col-l-12 {width: 100%;}
         }
     </style>
 </head>
 <body>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div class="row header">
-    <div class="col-md-1">
+    <div class="col-md-1 col-sm-1">
         <p style="text-align: left">Logo</p>
     </div>
     <div class="col-md-10">
@@ -130,13 +238,13 @@
             <li>Contact</li>
         </ul>
     </div>
-    <div class="col-md-1">
+    <div class="col-md-1 col-sm-1">
         <p style="text-align: right">Login</p>
     </div>
 
 </div>
 <div class="row">
-    <div class="col-md-2 left">
+    <div class="col-md-2 col-sm-2 left">
         <p class="uchiha"><a href="https://naruto.fandom.com/vi/wiki/Uchiha_Sasuke">Uchiha Sasuke</a></p>
         <p class="uchiha"><a href="https://naruto.fandom.com/vi/wiki/Uchiha_Sasuke">Uchiha Itachi</a></p>
         <p class="uchiha"><a href="https://naruto.fandom.com/vi/wiki/Uchiha_Sasuke">Uchiha Madara</a></p>
@@ -144,9 +252,9 @@
 
     </div>
 
-    <div class="col-md-8">
+    <div class="col-md-8 col-sm-8">
         <h1>Welcome</h1>
-        <p id="article" style="font-size: 30px">The Uchiha are descendants of Indra Ōtsutsuki, the elder son of Hagoromo Ōtsutsuki. Through Indra, the Uchiha
+        <p id="article">The Uchiha are descendants of Indra Ōtsutsuki, the elder son of Hagoromo Ōtsutsuki. Through Indra, the Uchiha
             inherited Hagoromo's "eyes", granting them powerful spiritual energy and chakra. As part of the so-called
             "Curse of Hatred" first displayed by Indra, Uchiha are subject to powerful emotions: these emotions
             typically start as love for a friend or family member that then become overpowering hatred when the object
@@ -161,7 +269,7 @@
             remembered this reason for their conflict.[3]</p>
     </div>
 
-    <div class="col-md-2 right">
+    <div class="col-md-2 col-sm-2 right">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIB_feaAB-ax7-5uBna7Co4sihiHLpxqBWSw&usqp=CAU">
     </div>
 </div>
