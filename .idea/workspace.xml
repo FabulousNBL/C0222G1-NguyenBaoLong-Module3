@@ -20,55 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a2afb6d-4fde-416b-92d4-d9b541ffd41e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/gallery/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/landing_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/practice/file_login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/practice/login-css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_boostrap/practice/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_thong_tin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_07_design_webpage/exercise/facebook/facebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/_07_design_webpage/exercise/facebook/facebook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_07_design_webpage/exercise/layout_rwd/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/_07_design_webpage/exercise/layout_rwd/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/landing_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_08_boostrap/exercise/landing_page/landing_page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +104,7 @@
       <workItem from="1653441039734" duration="1873000" />
       <workItem from="1653449416971" duration="2942000" />
       <workItem from="1653460317771" duration="12152000" />
+      <workItem from="1653485065180" duration="8452000" />
     </task>
     <servers />
   </component>
