@@ -18,58 +18,36 @@
     <div class="row">
 
         <div class="col-md-4">
+        </div>
+
+        <div class="col-md-4">
             <form action="/discount" method="post" style="display: flex;flex-wrap: wrap">
+
                 <div class="col-md-6">
-                    <label for="product1">Product description</label><br>
-                    <label for="price1">Price</label><br>
-                    <label for="discount1">Discount percent</label>
+                    <label for="product">Product description</label><br>
+                    <label for="price">Price</label><br>
+                    <label for="discount">Discount percent</label>
                 </div>
+
+
                 <div class="col-md-6">
-                    <input type="text" id="product1" name="product1" placeholder="Description">
-                    <input type="text" id="price1" name="price1" placeholder="Price">
-                    <input type="text" id="discount1" name="discount1" placeholder="Discount">
+                    <input type="text" id="product" name="product" placeholder="Description"
+                           value="${Product}">
+                    <input type="text" id="price" name="price" placeholder="Price" value="${Price}">
+                    <input type="text" id="discount" name="discount" placeholder="Discount" value="${Discount}">
                 </div>
+
                 <button type="submit" class="btn btn-primary">Discount</button>
             </form>
         </div>
 
         <div class="col-md-4">
-            <form action="/discount" method="post" style="display: flex;flex-wrap: wrap">
-                <div class="col-md-6">
-                    <label for="product2">Product description</label><br>
-                    <label for="price2">Price</label><br>
-                    <label for="discount2">Discount percent</label>
-                </div>
-                <div class="col-md-6">
-                    <input type="text" id="product2" name="product2" placeholder="Description">
-                    <input type="text" id="price2" name="price2" placeholder="Price">
-                    <input type="text" id="discount2" name="discount2" placeholder="Discount">
-                </div>
-                <button type="submit" class="btn btn-primary">Discount</button>
-            </form>
+            Discount Amount: ${DiscountAmount}
         </div>
 
-        <div class="col-md-4" style="display: flex;flex-wrap: wrap">
-            <form action="/discount" method="post" style="display: flex;flex-wrap: wrap">
-                <div class="col-md-6">
-                    <label for="product3">Product description</label><br>
-                    <label for="price3">Price</label><br>
-                    <label for="discount3">Discount percent</label>
-                </div>
-                <div class="col-md-6">
-                    <input type="text" id="product3" name="product3" placeholder="Description">
-                    <input type="text" id="price3" name="price3" placeholder="Price">
-                    <input type="text" id="discount3" name="discount3" placeholder="Discount">
-                </div>
-                <button type="submit" class="btn btn-primary">Discount</button>
-            </form>
-        </div>
-        </form>
     </div>
 </div>
-<form action="">
 
-</form>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

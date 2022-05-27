@@ -71,13 +71,13 @@
         }
         .left{
             margin-top: 50px;
-            background-color: grey;
+            background-color: white;
             font-size: 20px;
             float: left;
             height: 600px;
         }
         .right{
-            background-color: grey;
+            background-color: white;
             font-size: 20px;
             float: right;
             height: 600px;
@@ -88,6 +88,7 @@
             margin-top: 30px;
         }
         i{
+            color: deepskyblue;
             margin-right: 110px;
             display: inline-block;
         }
@@ -100,39 +101,123 @@
                 width: 100%;
             }
         }
-        @media only screen and (max-width: 10px){
-            [class*="col-"] {
+        @media only screen and (max-width: 576px){
+            .col-sm-1 {
+                width: 8.33333%;
+            }
+
+            .col-sm-2 {
+                width: 16.66667%;
+            }
+
+            .col-sm-3 {
+                width: 25%;
+            }
+
+            .col-sm-4 {
+                width: 33.33333%;
+            }
+
+            .col-sm-5 {
+                width: 41.66667%;
+            }
+
+            .col-sm-6 {
+                width: 50%;
+            }
+
+            .col-sm-7 {
+                width: 58.33333%;
+            }
+
+            .col-sm-8 {
+                width: 66.66667%;
+            }
+
+            .col-sm-9 {
+                width: 75%;
+            }
+
+            .col-sm-10 {
+                width: 83.33333%;
+            }
+
+            .col-sm-11 {
+                width: 91.66667%;
+            }
+
+            .col-sm-12 {
                 width: 100%;
             }
-        }
-        @media only screen and (max-width: 768px){
-            [class*="col-"] {
-                width: 100%;
+            .row{
+                font-size: 10px;
+                display: flex;
+                flex-wrap: wrap;
             }
+            .header{
+                background-color: white;
+                height: 50px;
+                width: 100%;
+                font-size: 15px;
+                position: absolute;
+            }
+            input{
+                background-color: cornflowerblue;
+                border-radius: 25px;
+            }
+            .left{
+                margin-top: 50px;
+                background-color: white;
+                font-size: 10px;
+                float: left;
+                height: 400px;
+            }
+            .right{
+                background-color: white;
+                font-size: 10px;
+                float: right;
+                height: 400px;
+                margin-top: 50px;
+            }
+
+            .left_side i{
+                margin-top: 30px;
+            }
+            i{
+                color: dodgerblue;
+                margin-right: 80px;
+                display: inline-block;
+            }
+            .right-top{
+                font-size: 15px;
+                margin-left: 0;
+            }
+
         }
+
     </style>
 </head>
 <body>
 <div class="row header">
-    <div class="col-md-3 logo">
+    <div class="col-md-3 col-sm-3 logo">
         <i class="fa-brands fa-facebook" style="color: blue;margin-right: 0" ></i>
         <input type="text" placeholder="Tìm kiếm trên Facebook">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 col-sm-6">
         <i class="fa-solid fa-house"></i>
         <i class="fa-solid fa-user-group"></i>
         <i class="fa-brands fa-youtube"></i>
         <i class="fa-solid fa-store"></i>
         <i class="fa-solid fa-people-group"></i>
     </div>
-    <div class="col-md-3 right-top">
+    <div class="col-md-3 col-sm-3 right-top">
         <i class="fa-brands fa-facebook-messenger" style="margin-right: 80px"></i>
         <i class="fa-solid fa-bell" style="margin-right: 80px"></i>
         <i class="fa-solid fa-right-from-bracket" style="margin-right: 80px"></i>
     </div>
 </div>
 <div class="row">
-    <div class="left_side col-md-3 left">
+    <div class="left_side col-md-3 col-sm-3 left">
         <i class="fa-solid fa-user-group"> Friend</i><br>
         <i class="fa-solid fa-people-group"> Group</i><br>
         <i class="fa-brands fa-youtube"> VIDEO</i><br>
@@ -145,10 +230,10 @@
         <i class="fa-solid fa-video">LIVE</i><br>
         <i class="fa-solid fa-briefcase-medical">HEALTH</i><br>
     </div>
-    <div class="col-md-6 ">
+    <div class="col-md-6 col-sm-6 ">
         <img src="Untitled.png">
     </div>
-    <div class="col-md-3 right">
+    <div class="col-md-3 col-sm-3 right">
         <img src="https://toplist.vn/images/800px/son-tung-m-tp-59477.jpg" style="border-radius: 25px"
         width="50px" height="50px"> Sơn Tùng <br>
         <img src="https://anh.24h.com.vn/upload/4-2015/images/2015-10-05/1444038997

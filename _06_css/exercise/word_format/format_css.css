@@ -4,14 +4,14 @@ p{
     text-indent: 50px;
 }
 
-.span1{
+.span-blue{
     color: blue;
 }
 
-.span2{
+.span-black{
     font-weight: bold;
     color: black;
 }
-.span3{
+.span-flowerblue{
     color: cornflowerblue;
 }
