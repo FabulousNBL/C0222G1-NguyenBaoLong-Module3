@@ -18,16 +18,19 @@
 </p>
 
 <table>
-    <tr>
-        <td>Name:</td>
-        <td>Price:</td>
-    </tr>
+<%--    <tr>--%>
+<%--        <td>Name:</td>--%>
+<%--        <td><input type="text" value="Product's name"></td>--%>
+<%--    </tr>--%>
     <c:forEach var="product" items="${products}">
         <tr>
             <td>${product.getName()}</td>
             <td>${product.getPrice()}</td>
         </tr>
     </c:forEach>
+
+
+
 </table>
 </body>
 </html>

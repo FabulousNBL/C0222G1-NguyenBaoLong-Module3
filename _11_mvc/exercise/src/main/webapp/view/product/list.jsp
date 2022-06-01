@@ -13,7 +13,12 @@
 </head>
 <body>
 <p><a href="/view/product/create.jsp">Thêm mới</a></p>
-<p><a href="/view/product/search.jsp">Tìm kiếm</a></p>
+
+<form action="/product" method="get">
+    <input type="text" placeholder="Product's name" name="name">
+    <input type="hidden" value="search" name="action">
+    <input type="submit" value="Search">
+</form>
 <%--<form action="/product?action=search" method="post">--%>
 <%--    <table>--%>
 <%--        <tr>--%>
@@ -38,6 +43,7 @@
             <td><a href="/product?action=view&id=${product.getId()}">${product.getName()}</a></td>
             <td>${product.price}</td>
             <td><a href="/product?action=delete&id=${product.getId()}"> delete</a></td>
+            <td><a href="/product?action=update&id=${product.getId()}"> update</a></td>
         </tr>
     </c:forEach>
 </table>

@@ -20,38 +20,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a2afb6d-4fde-416b-92d4-d9b541ffd41e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_11_mvc/practice/src/main/java/ServletCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_mvc/practice/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_mvc/practice/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_mvc/practice/src/main/java/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_mvc/practice/src/main/webapp/customer/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_mvc/practice/src/main/webapp/customer/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_mvc/practice/src/main/webapp/customer/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_mvc/practice/src/main/webapp/customer/error404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_mvc/practice/src/main/webapp/customer/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_mvc/practice/src/main/webapp/customer/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_jsp/homePage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/view/product/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/controller/ServletUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/repository/IUserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/repository/IUserRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/service/IUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/view/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/view/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/view/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/java/controller/ServletUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/java/model/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/java/model/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/webapp/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/webapp/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/webapp/user/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/controller/ServletProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/controller/ServletProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/repository/ProductRepoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/repository/ProductRepoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/repository/productRepoImpl/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/repository/productRepoImpl/ProductRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/service/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/service/productImpl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/service/productImpl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/libs/exercise-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/libs/exercise-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/controller/ServletProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/controller/ServletProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/repository/ProductRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/repository/ProductRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/repository/productRepoImpl/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/repository/productRepoImpl/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/service/productImpl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/service/productImpl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/view/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/view/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/view/product/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/view/product/search.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,6 +283,8 @@
       <workItem from="1653872897855" duration="590000" />
       <workItem from="1653878511462" duration="1246000" />
       <workItem from="1653892263874" duration="430000" />
+      <workItem from="1653982899438" duration="595000" />
+      <workItem from="1654066559370" duration="592000" />
     </task>
     <servers />
   </component>

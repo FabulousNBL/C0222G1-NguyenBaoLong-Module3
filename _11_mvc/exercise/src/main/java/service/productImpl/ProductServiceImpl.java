@@ -43,4 +43,9 @@ public class ProductServiceImpl implements service.ProductServiceImpl {
     public List<Product> searchByName(String name) {
         return productRepository.searchByName(name);
     }
+
+    @Override
+    public void update(int id, Product product) {
+        productRepository.update(id,product);
+    }
 }
