@@ -10,6 +10,8 @@
 <html>
 <head>
     <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/dbc3483aca.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <center>
@@ -32,6 +34,7 @@
             <th>Actions</th>
         </tr>
         <c:forEach var="user" items="${users}">
+            <c:if test="${user.status==0}">
             <tr>
                 <td>${user.id}</td>
                 <td>${user.name}</td>
@@ -40,11 +43,47 @@
                 <td>${user.status}</td>
                 <td>
                     <a href="/users?action=edit&id=${user.id}&name=${user.name}&email=${user.email}&country=${user.country}&status=${user.status}">Edit</a>
-                    <a href="/users?action=delete&id=${user.id}">Delete</a>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#h${user.id}">
+                        Delete
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="h${user.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Bạn có muốn xóa?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <a href="/users?action=delete&id=${user.id}">
+                                        <button type="button" class="btn btn-primary">Delete</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </td>
             </tr>
+            </c:if>
         </c:forEach>
+
     </table>
 </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 </html>

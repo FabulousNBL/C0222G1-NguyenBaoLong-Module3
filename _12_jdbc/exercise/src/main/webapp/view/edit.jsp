@@ -20,7 +20,7 @@
     <table>
         <tr>
             <td>ID</td>
-            <td><input type="text" name="id" value="${id}"></td>
+            <td><input type="hidden" name="id" value="${id}"></td>
         </tr>
         <tr>
             <td>User's name</td>

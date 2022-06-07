@@ -16,8 +16,8 @@ public class IUserServiceImpl implements IUserService{
     }
 
     @Override
-    public boolean delete(int id) {
-        return userRepo.delete(id);
+    public void delete(int id) {
+         userRepo.delete(id);
     }
 
     @Override

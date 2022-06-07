@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61fb011e-cfba-4572-8e1a-fa8459a1524f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/build/classes/java/main/controller/ServletUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/build/classes/java/main/controller/ServletUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/build/classes/java/main/repository/IUserRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/build/classes/java/main/repository/IUserRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/build/classes/java/main/repository/IUserRepoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/build/classes/java/main/repository/IUserRepoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/build/classes/java/main/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/build/classes/java/main/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/build/classes/java/main/service/IUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/build/classes/java/main/service/IUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/build/libs/exercise-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/build/libs/exercise-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/java/repository/IUserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/java/repository/IUserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/java/repository/IUserRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/java/repository/IUserRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/java/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/java/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/java/service/IUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/java/service/IUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/view/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../_12_jdbc/exercise/src/main/webapp/view/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2A08Nx7KoIYTv6CVaFmtiLgwEFy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../case_jsp" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61fb011e-cfba-4572-8e1a-fa8459a1524f" name="Default Changelist" comment="" />
+      <created>1654135105607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654135105607</updated>
+      <workItem from="1654135106803" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1654135120328">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1654135120328" />
+  </component>
+</project>

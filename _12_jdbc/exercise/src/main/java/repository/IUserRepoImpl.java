@@ -12,7 +12,7 @@ import java.util.List;
 public class IUserRepoImpl implements IUserRepo {
     private final String SELECT_ALL="select * from users order by `name`";
 //    private final String INSERT_USER="insert into user(`name`,email,country) values (?,?,?);";
-    private final String DELETE="delete from users where id = ?";
+    private final String DELETE="update users set `status`=1 where id =?";
     private final String INSERT="insert into users(`name`,email,country) values (?,?,?);";
     private final String EDIT="update users set `name`= ?,email=?,country=? where id= ?;";
     public static List<User>userList=new ArrayList<>();
@@ -40,24 +40,23 @@ public class IUserRepoImpl implements IUserRepo {
     }
 
     @Override
-    public boolean delete(int id) {
-        boolean rowDelete = false;
+    public void delete(int id) {
+
 
         try( Connection connection=BaseRepository.getConnectDB();
              PreparedStatement ps= connection.prepareStatement(DELETE);)
         {
 
             ps.setInt(1,id);
-            rowDelete= ps.executeUpdate()>0;
+             ps.executeUpdate();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        return rowDelete;
+
     }
 
     @Override
     public void save(User user) {
-        String query = "";
         Connection connection=BaseRepository.getConnectDB();
         try {
             PreparedStatement ps= connection.prepareStatement(INSERT);

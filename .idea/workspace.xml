@@ -20,47 +20,181 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a2afb6d-4fde-416b-92d4-d9b541ffd41e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/view/product/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/controller/ServletUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/repository/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/repository/IUserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/repository/IUserRepoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/service/IUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/view/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/view/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/view/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/java/controller/ServletUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/java/model/IUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/java/model/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/webapp/user/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/webapp/user/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jdbc/practice/src/main/webapp/user/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/jquery/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/.idea/case_study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/controller/FilterUTF8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/controller/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/controller/customer/ServletCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/controller/employee/EmployeeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/controller/service/ServiceServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/model/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/model/customer/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/model/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/model/employee/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/model/service/RentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/model/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/model/service/ServiceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/customer/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/customer/CustomerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/customer/TypeCustomerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/customer/impl/CustomerRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/customer/impl/TypeCustomerRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/employee/EmployeeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/employee/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/employee/impl/EmployeeRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/employee/impl/UserRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/service/RentTypeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/service/ServiceRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/service/ServiceTypeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/service/impl/RentTypeRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/service/impl/ServiceRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/repository/service/impl/ServiceTypeRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/customer/TypeCustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/customer/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/customer/impl/TypeCustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/employee/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/employee/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/employee/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/employee/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/serviceFurama/RentTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/serviceFurama/ServiceFuramaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/serviceFurama/ServiceTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/serviceFurama/impl/RentTypeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/serviceFurama/impl/ServiceFuramaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/java/service/serviceFurama/impl/ServiceTypeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/jquery/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/view/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/view/customer/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/view/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/view/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/view/employee/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/view/employee/employee.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/view/home_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/view/service/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_servlet/src/main/webapp/view/service/service.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/controller/ServletProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/controller/ServletProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/repository/ProductRepoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/repository/ProductRepoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/repository/productRepoImpl/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/repository/productRepoImpl/ProductRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/service/productImpl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/classes/java/main/service/productImpl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/build/libs/exercise-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/build/libs/exercise-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/controller/ServletProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/controller/ServletProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/repository/ProductRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/repository/ProductRepoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/repository/productRepoImpl/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/repository/productRepoImpl/ProductRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/service/productImpl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/java/service/productImpl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/view/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/view/product/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/view/product/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mvc/exercise/src/main/webapp/view/product/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/build/classes/java/main/controller/ServletUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/build/classes/java/main/controller/ServletUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/build/classes/java/main/repository/IUserRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/build/classes/java/main/repository/IUserRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/build/classes/java/main/repository/IUserRepoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/build/classes/java/main/repository/IUserRepoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/build/classes/java/main/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/build/classes/java/main/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/build/classes/java/main/service/IUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/build/classes/java/main/service/IUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/build/libs/exercise-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/build/libs/exercise-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/repository/IUserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/repository/IUserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/repository/IUserRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/repository/IUserRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/service/IUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/java/service/IUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/view/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/view/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/view/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/view/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/bootstrap/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/_12_jdbc/exercise/src/main/webapp/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_jsp/homePage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/user.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +223,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/case_jsp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -102,17 +236,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0222G1-NguyenBaoLong-Module3\_08_boostrap\exercise\landing_page" />
+      <recent name="D:\C0222G1-NguyenBaoLong-Module3\_08_boostrap\exercise\gallery" />
+      <recent name="D:\C0222G1-NguyenBaoLong-Module3\_06_css\exercise\insert_css_into_html" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\C0222G1-NguyenBaoLong-Module3\case_jsp" />
       <recent name="D:\C0222G1-NguyenBaoLong-Module3\_08_boostrap\exercise\landing_page" />
       <recent name="D:\C0222G1-NguyenBaoLong-Module3\_08_boostrap\exercise\gallery" />
       <recent name="D:\C0222G1-NguyenBaoLong-Module3\_08_boostrap" />
       <recent name="D:\C0222G1-NguyenBaoLong-Module3\_07_design_webpage\exercise\facebook" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\C0222G1-NguyenBaoLong-Module3\_08_boostrap\exercise\landing_page" />
-      <recent name="D:\C0222G1-NguyenBaoLong-Module3\_08_boostrap\exercise\gallery" />
-      <recent name="D:\C0222G1-NguyenBaoLong-Module3\_06_css\exercise\insert_css_into_html" />
     </key>
   </component>
   <component name="RunManager">
@@ -284,7 +418,11 @@
       <workItem from="1653878511462" duration="1246000" />
       <workItem from="1653892263874" duration="430000" />
       <workItem from="1653982899438" duration="595000" />
-      <workItem from="1654066559370" duration="592000" />
+      <workItem from="1654066559370" duration="593000" />
+      <workItem from="1654154009207" duration="17000" />
+      <workItem from="1654179740396" duration="693000" />
+      <workItem from="1654223231507" duration="593000" />
+      <workItem from="1654591760059" duration="596000" />
     </task>
     <servers />
   </component>
